@@ -1,0 +1,24 @@
+uuid: 339031bd-7ffe-4f1e-b9ac-688a6f1cf0ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.articles
+  module:
+    - views
+  theme:
+    - drupal8_zymphonies_theme
+id: views_block__articles_block_1
+theme: drupal8_zymphonies_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:articles-block_1'
+settings:
+  id: 'views_block:articles-block_1'
+  label: 'What''s New'
+  provider: views
+  label_display: visible
+  views_label: 'What''s New'
+  items_per_page: none
+visibility: {  }
